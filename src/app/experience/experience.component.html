@@ -16,8 +16,8 @@
                             <span>{{desc}}</span><br>
                         </div>
                         <h5 style="display: flex;align-items: center;" *ngIf="exp['technologies']!=[]">Technologies
-                            <div style="display: flex; flex-wrap: wrap;" *ngFor="let tech of exp['technologies']">
-                                <ul>
+                            <div style="display: flex; flex-wrap: wrap; justify-content: center;">
+                                <ul *ngFor="let tech of exp['technologies']">
                                     <span class="fa-icon-white" style="font-size: 30px;">
                                         <i *ngIf="tech=='database'" class="fa-solid fa-{{tech}}"></i>
                                         <i *ngIf="tech!='database'" class="fa-brands fa-{{tech}}"></i>
