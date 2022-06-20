@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "location": "Dataquest Corp, Branchburg, NJ",
+        "title": "Software Developer",
+        "date": "Sept 2021 - Present",
+        "description": [
+            "Configured robust and efficient RESTful Web Services using Spring annotations",
+            "Developed Spring Controllers and Services for request and response processing",
+            "Achieved 80% code coverage through integration testing using JUnit and Mockito; used Jacoco to optimize code coverage",
+            "Used Spring Data JPA and Spring JDBC to orchestrate the persistence layer to interact with Oracle and DB2"
+        ],
+        "technologies": [
+            "java",
+            "database",
+            "angular",
+            "html5",
+            "css3"
+        ]
+    },
+    {
+        "id": 2,
+        "location": "ULabs Makerspace, Lubbock, Texas",
+        "title": "Research Development Intern",
+        "date": "Dec 2019 - Apr 2020",
+        "description": [
+            "Spearheaded the development of a Full Stack voting portal from scratch",
+            "Implemented Google OAuth 2.0 API calls to securely login new and existing users to the platform",
+            "Utilized Flask & PostgreSQL Stack to store user information and the voting data"
+        ],
+        "technologies": [
+            "python",
+            "database"
+        ]
+    },
+    {
+        "id": 3,
+        "location": "Texas Tech University, Lubbock, Texas",
+        "title": "Academic Tutor",
+        "date": "Jan 2020 - May 2020",
+        "description": [
+            "Tutored over 20 students with coursework related to the subject Discrete-Time Signals and Systems",
+            "Assisted students with their written assignments, homeworks, quizzes and tests"
+        ],
+        "technologies": ""
+    }
+]

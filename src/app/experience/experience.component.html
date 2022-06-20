@@ -1,0 +1,33 @@
+<div class="container" id="experience">
+    <div class="row">
+
+        <div class="col-sm-8 col-sm-offset-2 section-container-spacer">
+            <div class="text-center">
+                <h1 class="h2">03 : Experience</h1>
+
+            </div>
+            <div style="border-left: 2px solid white;">
+                <ul class="timeline">
+                    <li class="event" style="margin-bottom: 4em;" *ngFor="let exp of experiences">
+                        <h3>{{exp["title"]}}</h3>
+                        <h3>{{exp["location"]}}</h3>
+                        <h4>{{exp["date"]}}</h4>
+                        <div class="container" *ngFor="let desc of exp['description']">
+                            <span>{{desc}}</span><br>
+                        </div>
+                        <h5 style="display: flex;align-items: center;" *ngIf="exp['technologies']!=[]">Technologies
+                            <div style="display: flex; flex-wrap: wrap;" *ngFor="let tech of exp['technologies']">
+                                <ul>
+                                    <span class="fa-icon-white" style="font-size: 30px;">
+                                        <i *ngIf="tech=='database'" class="fa-solid fa-{{tech}}"></i>
+                                        <i *ngIf="tech!='database'" class="fa-brands fa-{{tech}}"></i>
+                                    </span>
+                                </ul>
+                            </div>
+                        </h5>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
