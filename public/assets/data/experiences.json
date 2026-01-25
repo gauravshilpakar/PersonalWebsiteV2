@@ -28,12 +28,18 @@
 		"title": "Software Developer",
 		"date": "Sept 2021 - Nov 2023",
 		"description": [
-			"Configured robust and efficient RESTful Web Services using Spring annotations",
-			"Developed Spring Controllers and Services for request and response processing",
-			"Achieved 80% code coverage through integration testing using JUnit and Mockito; used Jacoco to optimize code coverage",
-			"Used Spring Data JPA and Spring JDBC to orchestrate the persistence layer to interact with Oracle and DB2"
+			"As a part of the CAPRI Team in Credit Suisse, I was responsible for migrating batch applications running on legacy servers into robust CSL3 (Cloud Services Lab) Red Hat Servers.",
+			"Developed a Kafka Application to read, process, and publish internal Affirm Messages making massive utilization of Oracle and Mongo for persistence.",
+			"This application was responsible for backfilling CNS (Continuous Net Settlement) Customer Trades."
 		],
-		"technologies": ["java", "database", "kafka"]
+		"technologies": [
+			"java",
+			"springboot",
+			"oracle",
+			"kafka",
+			"shell",
+			"scripting"
+		]
 	},
 	{
 		"id": 3,
@@ -41,11 +47,21 @@
 		"title": "Full Stack Software Developer",
 		"date": "Jan 2024 - Present",
 		"description": [
-			"Configured robust and efficient RESTful Web Services using Spring annotations",
-			"Developed Spring Controllers and Services for request and response processing",
-			"Achieved 80% code coverage through integration testing using JUnit and Mockito; used Jacoco to optimize code coverage",
-			"Used Spring Data JPA and Spring JDBC to orchestrate the persistence layer to interact with Oracle and DB2"
+			"CDF Modernization – Case Definition Facility (CDF) is an insurance application used to formulate plans, rates and structures for a specific customer/organization.",
+			"As part of the modernization efforts, I am responsible for migrating the legacy CDF App into robust, cloud-native applications on the Azure platform.",
+			"This includes retiring applications running on the .NET Thick Client (Citrix) and reimplementing all functionalities using Spring Boot Web APIs.",
+			"Additionally, I have been a part of developing user interfaces with React to enhance usability, simplify and modernize the overall user experience."
 		],
-		"technologies": ["java", "database", "react", "html5", "css3", "azure"]
+		"technologies": [
+			"java",
+			"sql",
+			"springboot",
+			"db2",
+			"react",
+			"html5",
+			"css3",
+			"azure",
+			"docker"
+		]
 	}
 ]

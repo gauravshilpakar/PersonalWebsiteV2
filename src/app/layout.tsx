@@ -3,7 +3,7 @@ import { IBM_Plex_Sans, Space_Mono } from "next/font/google";
 import "./globals.css";
 
 const ibmSans = IBM_Plex_Sans({
-	variable: "--font-geist-sans",
+	variable: "--font-sans",
 	subsets: ["latin"],
 });
 

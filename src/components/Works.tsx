@@ -72,7 +72,7 @@ export default function Works() {
 						</p>
 						<p>{work.description}</p>
 						{work.techstack && (
-							<p className="text-sm text-orange-300 font-mono flex justify-center">
+							<div className="text-sm text-orange-300 font-mono flex justify-center">
 								<strong>Tech: </strong>
 								<p className="flex gap-2">
 									{work.techstack
@@ -86,7 +86,7 @@ export default function Works() {
 											</span>
 										))}
 								</p>
-							</p>
+							</div>
 						)}
 					</div>
 				))}
