@@ -4,6 +4,15 @@ import { useState } from "react";
 
 export default function Nav() {
 	const [isOpen, setIsOpen] = useState(false);
+	const items = [
+		"Home",
+		"About_me",
+		"Experience",
+		"Works",
+		"Beyond",
+		"Contact",
+		"Resume",
+	];
 
 	return (
 		<header>
@@ -11,45 +20,30 @@ export default function Nav() {
 				<div className="container">
 					<div className={`${isOpen ? "block" : "hidden"} md:block`}>
 						<ul>
-							<li>
-								<a href="#home">
-									<p className="text-xl">Home</p>
-								</a>
-							</li>
-							<li>
-								<a href="#about">
-									<p className="text-xl">About me</p>
-								</a>
-							</li>
-							<li>
-								<a href="#experience">
-									<p className="text-xl">Experience</p>
-								</a>
-							</li>
-							<li>
-								<a href="#works">
-									<p className="text-xl">Works</p>
-								</a>
-							</li>
-							<li>
-								<a href="#beyond">
-									<p className="text-xl">Beyond</p>
-								</a>
-							</li>
-							<li>
-								<a href="#contact">
-									<p className="text-xl">Contact</p>
-								</a>
-							</li>
-							<li>
-								<a
-									href="/assets/resume.pdf"
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									<p className="text-xl">Resume</p>
-								</a>
-							</li>
+							{items.map((item) => (
+								<li key={item}>
+									<a
+										className="font-mono"
+										href={
+											item === "Resume"
+												? "/assets/resume.pdf"
+												: `#${item.toLowerCase()}`
+										}
+										target={
+											item === "Resume"
+												? "_blank"
+												: undefined
+										}
+										rel={
+											item === "Resume"
+												? "noopener noreferrer"
+												: undefined
+										}
+									>
+										<p className="text-xl">{item}</p>
+									</a>
+								</li>
+							))}
 						</ul>
 					</div>
 				</div>

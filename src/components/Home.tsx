@@ -6,16 +6,13 @@ export default function Home() {
 			id="home"
 		>
 			<div className="container">
-				<div className="row">
-					<div className="text-content">
-						<h1 className="text-left">
-							<p>
-								Hello,
-								<br />
-								<span>I'm Gaurav Shilpakar</span>
-							</p>
-						</h1>
-					</div>
+				<div className="text-content">
+					<h1 className="text-left">
+						<p>
+							Hello, <br></br>
+							<span>I'm Gaurav Shilpakar.</span>
+						</p>
+					</h1>
 				</div>
 			</div>
 		</div>
