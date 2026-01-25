@@ -1,0 +1,51 @@
+[
+	{
+		"id": 0,
+		"location": "TX Tech University, Lubbock, TX",
+		"title": "Academic Tutor",
+		"date": "Jan 2020 - May 2020",
+		"description": [
+			"Tutored over 20 students with coursework related to the subject Discrete-Time Signals and Systems",
+			"Assisted students with their written assignments, homeworks, quizzes and tests"
+		],
+		"technologies": ""
+	},
+	{
+		"id": 1,
+		"location": "ULabs Makerspace, Lubbock, TX",
+		"title": "Research Development Intern",
+		"date": "Dec 2019 - Apr 2020",
+		"description": [
+			"Spearheaded the development of a Full Stack voting portal from scratch",
+			"Implemented Google OAuth 2.0 API calls to securely login new and existing users to the platform",
+			"Utilized Flask & PostgreSQL Stack to store user information and the voting data"
+		],
+		"technologies": ["python", "database"]
+	},
+	{
+		"id": 2,
+		"location": "Credit Suisse, Morrisville, NC",
+		"title": "Software Developer",
+		"date": "Sept 2021 - Nov 2023",
+		"description": [
+			"Configured robust and efficient RESTful Web Services using Spring annotations",
+			"Developed Spring Controllers and Services for request and response processing",
+			"Achieved 80% code coverage through integration testing using JUnit and Mockito; used Jacoco to optimize code coverage",
+			"Used Spring Data JPA and Spring JDBC to orchestrate the persistence layer to interact with Oracle and DB2"
+		],
+		"technologies": ["java", "database", "kafka"]
+	},
+	{
+		"id": 3,
+		"location": "MetLife, Cary, NC",
+		"title": "Full Stack Software Developer",
+		"date": "Jan 2024 - Present",
+		"description": [
+			"Configured robust and efficient RESTful Web Services using Spring annotations",
+			"Developed Spring Controllers and Services for request and response processing",
+			"Achieved 80% code coverage through integration testing using JUnit and Mockito; used Jacoco to optimize code coverage",
+			"Used Spring Data JPA and Spring JDBC to orchestrate the persistence layer to interact with Oracle and DB2"
+		],
+		"technologies": ["java", "database", "react", "html5", "css3", "azure"]
+	}
+]
