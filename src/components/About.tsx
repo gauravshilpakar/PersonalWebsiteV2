@@ -26,9 +26,7 @@ export default function About() {
 											and Bachelor's of Computer
 											Engineering from Texas Tech
 											University, TX. I love design and
-											automation. Here is a list of
-											technologies I work with on a daily
-											basis...
+											automation.
 										</div>
 									</div>
 									<div className="col-xs-12 col-md-6">

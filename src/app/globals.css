@@ -263,6 +263,64 @@ textarea.form-control {
 	color: var(--accent);
 }
 
+/* Hamburger Menu */
+.hamburger-btn {
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	padding: 10px;
+	position: absolute;
+	right: 20px;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 1001;
+}
+
+.hamburger {
+	width: 30px;
+	height: 24px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.hamburger span {
+	display: block;
+	height: 3px;
+	width: 100%;
+	background: var(--foreground);
+	border-radius: 3px;
+	transition: all 0.3s ease;
+}
+
+.hamburger.open span:nth-child(1) {
+	transform: translateY(10.5px) rotate(45deg);
+}
+
+.hamburger.open span:nth-child(2) {
+	opacity: 0;
+}
+
+.hamburger.open span:nth-child(3) {
+	transform: translateY(-10.5px) rotate(-45deg);
+}
+
+/* Mobile Navigation */
+@media (max-width: 768px) {
+	.navbar ul {
+		flex-direction: column;
+		align-items: center;
+		padding: 20px 0;
+		gap: 15px;
+	}
+
+	.navbar li {
+		width: 100%;
+		text-align: center;
+	}
+}
+
 /* Container */
 .container {
 	max-width: 1200px;
@@ -305,7 +363,7 @@ textarea.form-control {
 /* Responsive adjustments */
 @media (max-width: 768px) {
 	h1 {
-		font-size: 2.5em;
+		font-size: rem;
 	}
 
 	body {

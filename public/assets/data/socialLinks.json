@@ -1,0 +1,27 @@
+[
+	{
+		"icon": "faFacebook",
+		"url": "http://www.facebook.com/gaurav.shilpakar",
+		"title": "Facebook"
+	},
+	{
+		"icon": "faTwitter",
+		"url": "http://www.twitter.com/gauravshilpakar",
+		"title": "Twitter"
+	},
+	{
+		"icon": "faLinkedin",
+		"url": "https://www.linkedin.com/in/gaurav-shilpakar/",
+		"title": "LinkedIn"
+	},
+	{
+		"icon": "faGithub",
+		"url": "http://www.github.com/gauravshilpakar",
+		"title": "GitHub"
+	},
+	{
+		"icon": "faInstagram",
+		"url": "https://www.instagram.com/gauravvshilpakarr/",
+		"title": "Instagram"
+	}
+]

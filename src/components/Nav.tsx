@@ -18,6 +18,21 @@ export default function Nav() {
 		<header>
 			<nav className="navbar">
 				<div className="container">
+					{/* Hamburger button - visible only on mobile */}
+					<button
+						className="md:hidden hamburger-btn"
+						onClick={() => setIsOpen(!isOpen)}
+						aria-label="Toggle navigation"
+						aria-expanded={isOpen}
+					>
+						<div className={`hamburger ${isOpen ? "open" : ""}`}>
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+					</button>
+
+					{/* Navigation menu */}
 					<div className={`${isOpen ? "block" : "hidden"} md:block`}>
 						<ul>
 							{items.map((item) => (
@@ -39,6 +54,7 @@ export default function Nav() {
 												? "noopener noreferrer"
 												: undefined
 										}
+										onClick={() => setIsOpen(false)}
 									>
 										<p className="text-xl">{item}</p>
 									</a>

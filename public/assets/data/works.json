@@ -1,0 +1,68 @@
+[
+	{
+		"id": 1,
+		"title": "Hoolaki Bot",
+		"date": "2019",
+		"description": "An autonomous Mail Delivery Robot based around a Rover Tank Body and BASYS3 Board.",
+		"github": "https://github.com/gauravshilpakar/HoolakiBot",
+		"link": "https://youtu.be/oo-Na48z50s",
+		"name": "",
+		"path": "IMG_0181.jpg",
+		"techstack": "C, BASYS3"
+	},
+	{
+		"id": 2,
+		"title": "Music Genre Identification",
+		"date": "2020",
+		"description": "A machine learning model to predict genre of a recorded Music Sample.",
+		"github": "https://github.com/gauravshilpakar/MusicGenreIdentification",
+		"link": "",
+		"name": "",
+		"path": "acastro_190416_1777_music_ai_0001.0.0.jpg",
+		"techstack": "Python, TensorFlow, Flutter, Firebase, NVIDIA Jetson Nano"
+	},
+	{
+		"id": 3,
+		"title": "Phasor Measurement Unit",
+		"date": "2019",
+		"description": "A two-phase measurement unit used to measure the phase and current of an AC source.",
+		"github": "https://github.com/gauravshilpakar/PhasorMeasurementUnit",
+		"link": "https://github.com/gauravshilpakar/PhasorMeasurementUnit/blob/master/Shilpakar%20Gaurav_Final%20Report.pdf",
+		"name": "",
+		"path": "phasor.jpg",
+		"techstack": "C, MSP430, LabVIEW, HTML, CSS, PHP, MySQL"
+	},
+	{
+		"id": 4,
+		"title": "Point of Sale",
+		"date": "2020",
+		"description": "Point of Sale System created using Java following design models.",
+		"github": "https://github.com/gauravshilpakar/PointOfSaleSystem",
+		"link": "",
+		"name": "",
+		"path": "POC.jpg",
+		"techstack": "Java, JDBC, SQLite"
+	},
+	{
+		"id": 5,
+		"title": "The Holland Quest",
+		"date": "2021",
+		"description": "A Unity game application created to digitize TTU Advising Process.",
+		"github": "https://github.com/gauravshilpakar/Holland-Quest",
+		"link": "",
+		"name": "The Holland Quest",
+		"path": "Unity_1200X630.0.jpg",
+		"techstack": "Unity, C#, NodeJS, MySQL, GCloud"
+	},
+	{
+		"id": 6,
+		"title": "Mini App",
+		"date": "2023",
+		"description": "Collection of small apps created to learn frontend/nextjs/react.",
+		"github": "https://github.com/gauravshilpakar/MiniApp",
+		"link": "https://mini-app-nextgs.vercel.app/",
+		"name": "Mini App",
+		"path": "",
+		"techstack": "React, NextJS, TailwindCSS, Vercel"
+	}
+]
